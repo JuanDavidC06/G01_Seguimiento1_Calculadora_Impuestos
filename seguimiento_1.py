@@ -16,7 +16,7 @@ if estrato == 0:
 elif estrato == 1 or 2:
     TOTAL = 500*diasviviendoenmedellin
 elif estrato == 3 or 4:
-    TOTAL = (50000 * diasviviendoenmedellin) + 1000000
+    TOTAL = ((50000 * diasviviendoenmedellin) + 1000000)
 elif estrato == 5 or 6:
     TOTAL = 250000 * diasviviendoenmedellin
 
@@ -26,11 +26,11 @@ if ocupacion == 1:
     DESCUENTO = 50
 
 elif ocupacion == 2:
-    FINAL= TOTAL * 0.05
+    FINAL= TOTAL * 0.95
     DESCUENTO = 5
 
 elif ocupacion == 3:
-    FINAL =  TOTAL * 0.10
+    FINAL =  TOTAL * 0.90
     DESCUENTO = 10
 
 # Resultados finales
